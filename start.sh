@@ -5,7 +5,7 @@ if [ ! $NEWHOSTNAME ]; then
 fi
 sudo hostnamectl set-hostname $NEWHOSTNAME
 echo 'New hostname: ' $NEWHOSTNAME
-sleep 2
+sleep 10
 echo '----------------------------------------------------------'
 echo '---------------- Update and full upgrade: ----------------'
 echo '----------------------------------------------------------'
