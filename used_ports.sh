@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "🔍 Поиск портов (без localhost)..."
+echo "Поиск портов (без localhost)..."
 echo ""
 
 declare -A docker_ports_info
